@@ -11,7 +11,7 @@ parser.add_argument("--report", metavar="", type=str, default="report.json", hel
 
 # General quality control options
 parser.add_argument("-q", "--min_q", metavar="", type=int, default=0, help="minimum average quality of output reads(default: 0)")
-parser.add_argument("-l", "--min_len", metavar="", type=int, default=0, help="minimum read length of output reads (default: 0)")
+parser.add_argument("-l", "--min_len", metavar="", type=int, default=0, help="minimum length of output reads (default: 0)")
 
 # Primer searching options
 parser.add_argument("--skip_optimization", action="store_true", default=False, help="skip the optimization step")
